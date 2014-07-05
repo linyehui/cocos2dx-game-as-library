@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15003FA315D2601D00B6775A /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 15003FA215D2601D00B6775A /* iphone */; };
+		1A1CF3691626CEFF00AFC938 /* ipad in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CF3671626CEFF00AFC938 /* ipad */; };
+		1A1CF36A1626CEFF00AFC938 /* ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 1A1CF3681626CEFF00AFC938 /* ipadhd */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3901C51F19669991004A1BFA /* HelloCpp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3901C51E19669991004A1BFA /* HelloCpp-Info.plist */; };
+		3901C521196699E6004A1BFA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3901C520196699E6004A1BFA /* MainWindow.xib */; };
+		3901C5251966A8FB004A1BFA /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3901C5231966A8FB004A1BFA /* MainMenuViewController.m */; };
+		3901C5261966A8FB004A1BFA /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3901C5241966A8FB004A1BFA /* MainMenuViewController.xib */; };
+		3901C5291966B8E2004A1BFA /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3901C5281966B8E2004A1BFA /* AppDelegate.mm */; };
+		3901C52E19670A64004A1BFA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3901C52D19670A64004A1BFA /* RootViewController.xib */; };
+		3901C58119678BBE004A1BFA /* CocosAppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF23D4E3143315EB00657E08 /* CocosAppDelegate.cpp */; };
+		3901C58219678BBE004A1BFA /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF23D4E5143315EB00657E08 /* HelloWorldScene.cpp */; };
+		3901C58319678BBE004A1BFA /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF4DE6AC138BB89600CF907D /* RootViewController.mm */; };
+		3901C58619678BF3004A1BFA /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3956E79F1965044E00802754 /* libcocos2dx.a */; };
+		3901C5C719679F92004A1BFA /* CocosHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3901C5C619679F92004A1BFA /* CocosHelper.mm */; };
+		3901C5C91967A16A004A1BFA /* CocosHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3901C5C619679F92004A1BFA /* CocosHelper.mm */; };
+		3901C5CF1967A3F1004A1BFA /* CocosHelper.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 3901C5C519679F92004A1BFA /* CocosHelper.h */; };
+		3901C5D21967AE68004A1BFA /* RootViewController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BF4DE6AB138BB89600CF907D /* RootViewController.h */; };
+		3901C5D51967B051004A1BFA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF492B6912891AC600A09262 /* libz.dylib */; };
+		3956E7A01965051500802754 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3956E79F1965044E00802754 /* libcocos2dx.a */; };
+		3956E8221965303300802754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		BF1373EF128A898400D9F789 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF492D4B1289302400A09262 /* OpenGLES.framework */; };
+		BF1373F0128A899500D9F789 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF492C21128924A800A09262 /* libxml2.dylib */; };
+		BF1373F1128A899E00D9F789 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF492B6912891AC600A09262 /* libz.dylib */; };
+		BF13742F128A8E6A00D9F789 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF137426128A8E4600D9F789 /* QuartzCore.framework */; };
+		BF23D4E7143315EB00657E08 /* CocosAppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF23D4E3143315EB00657E08 /* CocosAppDelegate.cpp */; };
+		BF23D4E8143315EB00657E08 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF23D4E5143315EB00657E08 /* HelloWorldScene.cpp */; };
+		BF4DE6AD138BB89600CF907D /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF4DE6AC138BB89600CF907D /* RootViewController.mm */; };
+		D446FD79161028E9000ADA7B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD78161028E9000ADA7B /* Default.png */; };
+		D446FD7B161028ED000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD7A161028ED000ADA7B /* Default@2x.png */; };
+		D446FD7D161028F4000ADA7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD7C161028F4000ADA7B /* Default-568h@2x.png */; };
+		D4ABB4B313B4395300552E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ABB4B213B4395300552E6E /* main.m */; };
+		D4EF94E815BD319200D803EB /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF94E715BD319200D803EB /* Icon-57.png */; };
+		D4EF94EA15BD319500D803EB /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF94E915BD319500D803EB /* Icon-114.png */; };
+		D4EF94EC15BD319B00D803EB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF94EB15BD319B00D803EB /* Icon-72.png */; };
+		D4EF94EE15BD319D00D803EB /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF94ED15BD319D00D803EB /* Icon-144.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3956E79E1965044E00802754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A3D7AE1682F5EC002FB0C5 /* cocos2dx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = cocos2dx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3956E81F1965303300802754 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3901C5D21967AE68004A1BFA /* RootViewController.h in Copy Files */,
+				3901C5CF1967A3F1004A1BFA /* CocosHelper.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15003FA215D2601D00B6775A /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphone; sourceTree = "<group>"; };
+		15A3D7AE1682F5EC002FB0C5 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "../../../../../../../usr/local/cocos2d-x-2.2.4/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
+		1A1CF3661626CB6000AFC938 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		1A1CF3671626CEFF00AFC938 /* ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipad; sourceTree = "<group>"; };
+		1A1CF3681626CEFF00AFC938 /* ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ipadhd; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* HelloCpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3901C51E19669991004A1BFA /* HelloCpp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloCpp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3901C520196699E6004A1BFA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		3901C5221966A8FB004A1BFA /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		3901C5231966A8FB004A1BFA /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		3901C5241966A8FB004A1BFA /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		3901C5271966B8E2004A1BFA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3901C5281966B8E2004A1BFA /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		3901C52D19670A64004A1BFA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3901C5C519679F92004A1BFA /* CocosHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosHelper.h; sourceTree = "<group>"; };
+		3901C5C619679F92004A1BFA /* CocosHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CocosHelper.mm; sourceTree = "<group>"; };
+		3956E8071965300400802754 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3956E8211965303300802754 /* libhellocpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhellocpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		781C33B11547F06B00633F88 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		781C33B31547F06B00633F88 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		781C33B51547F06B00633F88 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF137426128A8E4600D9F789 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF23D4E3143315EB00657E08 /* CocosAppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CocosAppDelegate.cpp; sourceTree = "<group>"; };
+		BF23D4E4143315EB00657E08 /* CocosAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosAppDelegate.h; sourceTree = "<group>"; };
+		BF23D4E5143315EB00657E08 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		BF23D4E6143315EB00657E08 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		BF492B6912891AC600A09262 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BF492C21128924A800A09262 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		BF492D4B1289302400A09262 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BF4DE6AB138BB89600CF907D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BF4DE6AC138BB89600CF907D /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		D446FD78161028E9000ADA7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../proj.ios/Default.png; sourceTree = "<group>"; };
+		D446FD7A161028ED000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
+		D446FD7C161028F4000ADA7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4ABB4B213B4395300552E6E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4EF94E715BD319200D803EB /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "../proj.ios/Icon-57.png"; sourceTree = "<group>"; };
+		D4EF94E915BD319500D803EB /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114.png"; path = "../proj.ios/Icon-114.png"; sourceTree = "<group>"; };
+		D4EF94EB15BD319B00D803EB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../proj.ios/Icon-72.png"; sourceTree = "<group>"; };
+		D4EF94ED15BD319D00D803EB /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../proj.ios/Icon-144.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3956E7A01965051500802754 /* libcocos2dx.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				BF1373EF128A898400D9F789 /* OpenGLES.framework in Frameworks */,
+				BF1373F0128A899500D9F789 /* libxml2.dylib in Frameworks */,
+				BF1373F1128A899E00D9F789 /* libz.dylib in Frameworks */,
+				BF13742F128A8E6A00D9F789 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956E81E1965303300802754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901C5D51967B051004A1BFA /* libz.dylib in Frameworks */,
+				3901C58619678BF3004A1BFA /* libcocos2dx.a in Frameworks */,
+				3956E8221965303300802754 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HelloCpp.app */,
+				3956E8211965303300802754 /* libhellocpp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				15A3D7AE1682F5EC002FB0C5 /* cocos2dx.xcodeproj */,
+				BF23D4E2143315EB00657E08 /* Classes */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				BF5681CC1313A84D0055EEAC /* ios */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				784521C214EBA449009D533B /* Resources */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF492B6912891AC600A09262 /* libz.dylib */,
+				BF137426128A8E4600D9F789 /* QuartzCore.framework */,
+				BF492D4B1289302400A09262 /* OpenGLES.framework */,
+				BF492C21128924A800A09262 /* libxml2.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				781C33B11547F06B00633F88 /* OpenAL.framework */,
+				781C33B31547F06B00633F88 /* AudioToolbox.framework */,
+				781C33B51547F06B00633F88 /* AVFoundation.framework */,
+				3956E8071965300400802754 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3956E79B1965044E00802754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3956E79F1965044E00802754 /* libcocos2dx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784521C214EBA449009D533B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3901C51E19669991004A1BFA /* HelloCpp-Info.plist */,
+				1A1CF3671626CEFF00AFC938 /* ipad */,
+				1A1CF3681626CEFF00AFC938 /* ipadhd */,
+				15003FA215D2601D00B6775A /* iphone */,
+				D4EF94ED15BD319D00D803EB /* Icon-144.png */,
+				D4EF94EB15BD319B00D803EB /* Icon-72.png */,
+				D4EF94E915BD319500D803EB /* Icon-114.png */,
+				D4EF94E715BD319200D803EB /* Icon-57.png */,
+				D446FD7C161028F4000ADA7B /* Default-568h@2x.png */,
+				D446FD7A161028ED000ADA7B /* Default@2x.png */,
+				D446FD78161028E9000ADA7B /* Default.png */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		BF23D4E2143315EB00657E08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A1CF3661626CB6000AFC938 /* AppMacros.h */,
+				BF23D4E3143315EB00657E08 /* CocosAppDelegate.cpp */,
+				BF23D4E4143315EB00657E08 /* CocosAppDelegate.h */,
+				BF23D4E5143315EB00657E08 /* HelloWorldScene.cpp */,
+				BF23D4E6143315EB00657E08 /* HelloWorldScene.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF5681CC1313A84D0055EEAC /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3901C5271966B8E2004A1BFA /* AppDelegate.h */,
+				3901C5281966B8E2004A1BFA /* AppDelegate.mm */,
+				D4ABB4B213B4395300552E6E /* main.m */,
+				BF4DE6AB138BB89600CF907D /* RootViewController.h */,
+				BF4DE6AC138BB89600CF907D /* RootViewController.mm */,
+				3901C52D19670A64004A1BFA /* RootViewController.xib */,
+				3901C520196699E6004A1BFA /* MainWindow.xib */,
+				3901C5221966A8FB004A1BFA /* MainMenuViewController.h */,
+				3901C5231966A8FB004A1BFA /* MainMenuViewController.m */,
+				3901C5241966A8FB004A1BFA /* MainMenuViewController.xib */,
+				3901C5C519679F92004A1BFA /* CocosHelper.h */,
+				3901C5C619679F92004A1BFA /* CocosHelper.mm */,
+			);
+			name = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HelloCpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCpp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCpp;
+			productName = HelloWorld;
+			productReference = 1D6058910D05DD3D006BFB54 /* HelloCpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3956E8201965303300802754 /* hellocpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3956E83D1965303400802754 /* Build configuration list for PBXNativeTarget "hellocpp" */;
+			buildPhases = (
+				3956E81D1965303300802754 /* Sources */,
+				3956E81E1965303300802754 /* Frameworks */,
+				3956E81F1965303300802754 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellocpp;
+			productName = hellocpp;
+			productReference = 3956E8211965303300802754 /* libhellocpp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCpp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3956E79B1965044E00802754 /* Products */;
+					ProjectRef = 15A3D7AE1682F5EC002FB0C5 /* cocos2dx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3956E8201965303300802754 /* hellocpp */,
+				1D6058900D05DD3D006BFB54 /* HelloCpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3956E79F1965044E00802754 /* libcocos2dx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2dx.a;
+			remoteRef = 3956E79E1965044E00802754 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901C51F19669991004A1BFA /* HelloCpp-Info.plist in Resources */,
+				3901C5261966A8FB004A1BFA /* MainMenuViewController.xib in Resources */,
+				D4EF94E815BD319200D803EB /* Icon-57.png in Resources */,
+				D4EF94EA15BD319500D803EB /* Icon-114.png in Resources */,
+				3901C52E19670A64004A1BFA /* RootViewController.xib in Resources */,
+				D4EF94EC15BD319B00D803EB /* Icon-72.png in Resources */,
+				D4EF94EE15BD319D00D803EB /* Icon-144.png in Resources */,
+				15003FA315D2601D00B6775A /* iphone in Resources */,
+				D446FD79161028E9000ADA7B /* Default.png in Resources */,
+				D446FD7B161028ED000ADA7B /* Default@2x.png in Resources */,
+				3901C521196699E6004A1BFA /* MainWindow.xib in Resources */,
+				D446FD7D161028F4000ADA7B /* Default-568h@2x.png in Resources */,
+				1A1CF3691626CEFF00AFC938 /* ipad in Resources */,
+				1A1CF36A1626CEFF00AFC938 /* ipadhd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901C5C91967A16A004A1BFA /* CocosHelper.mm in Sources */,
+				BF4DE6AD138BB89600CF907D /* RootViewController.mm in Sources */,
+				D4ABB4B313B4395300552E6E /* main.m in Sources */,
+				BF23D4E7143315EB00657E08 /* CocosAppDelegate.cpp in Sources */,
+				3901C5251966A8FB004A1BFA /* MainMenuViewController.m in Sources */,
+				BF23D4E8143315EB00657E08 /* HelloWorldScene.cpp in Sources */,
+				3901C5291966B8E2004A1BFA /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3956E81D1965303300802754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3901C58119678BBE004A1BFA /* CocosAppDelegate.cpp in Sources */,
+				3901C58219678BBE004A1BFA /* HelloWorldScene.cpp in Sources */,
+				3901C58319678BBE004A1BFA /* RootViewController.mm in Sources */,
+				3901C5C719679F92004A1BFA /* CocosHelper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCpp_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/include\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/platform/ios\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/kazmath/include\"",
+					"\"$(COCOS2DX_HOME)/external/chipmunk/include/chipmunk\"",
+				);
+				INFOPLIST_FILE = "HelloCpp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = HelloCpp;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HelloCpp_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/include\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/platform/ios\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/kazmath/include\"",
+					"\"$(COCOS2DX_HOME)/external/chipmunk/include/chipmunk\"",
+				);
+				INFOPLIST_FILE = "HelloCpp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = HelloCpp;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		3956E83E1965303400802754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/hellocpp.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocpp/hellocpp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/include\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/platform/ios\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/kazmath/include\"",
+					"\"$(COCOS2DX_HOME)/external/chipmunk/include/chipmunk\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3956E83F1965303400802754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/hellocpp.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellocpp/hellocpp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/include/libxml2/\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/include\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/platform/ios\"",
+					"\"$(COCOS2DX_HOME)/cocos2dx/kazmath/include\"",
+					"\"$(COCOS2DX_HOME)/external/chipmunk/include/chipmunk\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3956E83D1965303400802754 /* Build configuration list for PBXNativeTarget "hellocpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3956E83E1965303400802754 /* Debug */,
+				3956E83F1965303400802754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloCpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
